@@ -7,7 +7,7 @@ The script makes use of a multitude of requests to test ICS standards, complianc
 
 The script uses openvas vulnerability scanner, snort, and more.
 
-The included config.ini file has been boilerplate designed to be quickly edited to include the required credentials and information to smoothly run the script.
+The included config.ini file has been boilerplate designed to be quickly edited to include the required credentials and information to smoothly run the script. The configuration file includes sections for OpenVAS credentials, target IP and network traffic timeout, default or weak credentials to test, and logging settings.
 
 Developed by @abtzpro @AdamR @HelloSecurity
 
