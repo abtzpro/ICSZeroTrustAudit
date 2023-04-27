@@ -1,5 +1,5 @@
 # ICSZeroTrustAudit
-ICSZeroTrustAudit: a python ICS security audit based on zero trust principles
+## ICSZeroTrustAudit: a python ICS security audit based on zero trust principles
 
 -The purpose of this script is to perform a security audit on a target Industrial Control System (ICS). The script includes multiple tests and checks, such as vulnerability scanning, network traffic analysis, credential checking, firewall and Intrusion Detection System (IDS) testing, and ICS-specific protocol testing (Modbus, DNP3, and IEC 60870-5-104). Additionally, it performs a compliance check based on Zero Trust principles.
 
@@ -9,12 +9,12 @@ ICSZeroTrustAudit: a python ICS security audit based on zero trust principles
 
 -The script is easily modified to suit an individual use case or as a general ICS audit baseline to automate what can be automated.
 
-The command line arguments for the script are:
+## The command line arguments for the script are:
 
 -t or --target: Target IP address - Specifies the IP address of the target ICS system to perform the security audit on. The default value is taken from the config.ini file.
 -nt or --network_traffic_timeout: Duration for network traffic analysis in seconds - Specifies the duration, in seconds, for which the script will analyze the network traffic during the audit. The default value is taken from the config.ini file.
 
-To run the script with command line arguments, use the following syntax:
+## To run the script with command line arguments, use the following syntax:
 
 python ICSZeroTrustAudit.py -t TARGET_IP -nt NETWORK_TRAFFIC_TIMEOUT
 
