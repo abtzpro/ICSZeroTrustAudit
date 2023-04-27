@@ -7,7 +7,7 @@ ICSZeroTrustAudit: a python ICS security audit based on zero trust principles
 
 -The included config.ini file has been boilerplate designed to be quickly edited to include the required credentials and information to smoothly run the script. The configuration file includes sections for OpenVAS credentials, target IP and network traffic timeout, default or weak credentials to test, and logging settings.
 
-You will need to modify the hardcoded values within the code and include certain aspects to suit your use case.
+-The script is easily modified to suit an individual use case or as a general ICS audit baseline to automate what can be automated.
 
 Developed by @abtzpro @AdamR @HelloSecurity
 
