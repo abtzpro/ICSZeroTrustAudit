@@ -3,7 +3,7 @@ ICSZeroTrustAudit: a python ICS security audit based on zero trust principles
 
 You will need to modify the hardcoded values within the code and include certain aspects to suit your use case.
 
-The script makes use of a multitude of requests to test ICS standards, compliance checks, etc. This script automates at least 75 percent of an ICS security audit based on zero trust principles. 
+The script makes use of a multitude of requests to test ICS standards, compliance checks, etc. This script attempts to automate at least 75 percent of an ICS security audit based on zero trust principles. 
 
 The script uses openvas vulnerability scanner, snort, and more.
 
